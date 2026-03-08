@@ -1,5 +1,6 @@
 # Equiformer-V2_4090-
 Equiformer V2_4090新环境搭建避坑
+好吧其实是在OCP开源框架里安装的Equiformer-V2_4090
 1报错现象 cp: -r not specified,
 1根因分析 尝试用普通命令移动数据集文件夹。
 1终极解法 使用 cp -r 进行递归复制。
